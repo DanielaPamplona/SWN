@@ -2,13 +2,17 @@
 
 <img src="./Fig1.png" width="500">
 
-The shifted white noise (SWN) is a novel stimuli that by introducing random spatial shifts in the usual white noise stimulus increases the resolution of the measurements, estimating faster and more acurater visual receptive fields.
+The shifted white noise (SWN) is a stimuli that by introducing random spatial shifts in the usual white noise stimulus increases the resolution of the measurements, estimating faster and more acurater visual receptive fields.
 
-### How to install dependencies
+### How to install the SWN generator
 
-This code depends on basic python packages, to install automatically the dependencies type on your terminal:
+1) Clone or download the this repository to a local folder, if necessary extract the zip file.
+
+2) This code depends on basic python packages: scikit_image and numpy, to install automatically the dependencies and type on your terminal:
 
 pip install -r requirements.txt
+
+3) Done!
 
 ### How to run
 
@@ -16,9 +20,9 @@ If you want to generate 12 images, of 200 pixels, with blocks of 20 pixels, base
 
 python generate_SWN.py -T 12 -N 200 -beta 20 -alpha 4 -o /home/Test_SWN/
 
-This is a self-standing code and you just have to change the parameters in the terminal.
+This is a self-standing code and you just have to change the parameters in the terminal. The parameters follow the same notation as in the article. For more details, see XXX.
 
-The parameters follow the same notation as in the article. For more details, see XXX.
+This code will create folder /home/Test_SWN/, if necessary. Stimulus images images will be called image_YYY.png where YYY is the image number padded with zeros in such way that the number of digits is the same for the entire dataset.
 
 
 ### How to get help
@@ -46,7 +50,7 @@ optional arguments:
 
 ### Documentation
 The journal article describing and evaluating the SWN is available here:XXX
-If you use this code, please do not forget to cite the article. 
+If you use the SWN, please do not forget to cite the article. 
 The bibtex entry is below.
 XXX
 

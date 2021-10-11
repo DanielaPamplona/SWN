@@ -1,2 +1,4 @@
 scikit_image==0.18.1
+matplotlib==3.3.4
 numpy==1.19.4
+
