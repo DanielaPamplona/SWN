@@ -8,7 +8,7 @@ The shifted white noise (SWN) is a stimuli that by introducing random spatial sh
 
 1) Clone or download the this repository to a local folder, if necessary extract the zip file.
 
-2) This code depends on basic python packages: scikit_image and numpy, to install automatically the dependencies and type on your terminal:
+2) This code depends on basic python packages: scikit_image, numpy and matplotlib. To install automatically the dependencies and type on your terminal:
 
 pip install -r requirements.txt
 
@@ -16,14 +16,14 @@ pip install -r requirements.txt
 
 ### How to run
 
-If you want to generate 12 images, of 200 pixels, with blocks of 20 pixels, baseline shift 4 pixels and save in the folder /home/Test_SWN/, you open a terminal on the folder where the code is and type:
+If you want to generate 12 images, of 200 pixels, with blocks of 20 pixels, baseline shift 4 pixels and save in the folder /home/pamplona/Test_SWN/, you open a terminal on the folder where the code is and type:
 
-python generate_SWN.py -T 12 -N 200 -beta 20 -alpha 4 -o /home/Test_SWN/
+python generate_SWN.py -T 12 -N 200 -beta 20 -alpha 4 -o /home/pamplona/Test_SWN/
 
-This is a self-standing code and you just have to change the parameters in the terminal. The parameters follow the same notation as in the article. For more details, see XXX.
+This is a self-standing code and you just have to change the arguments in the terminal.
 
-This code will create folder /home/Test_SWN/, if necessary. Stimulus images images will be called image_YYY.png where YYY is the image number padded with zeros in such way that the number of digits is the same for the entire dataset.
-
+Images will be saved in the folder OUTPUT_FOLDER_PATH. If this folder does not exists, it will be created. Stimulus images images will be called image_YYY.png where YYY is the image number padded with zeros. The number of zeros is defined automatically in such way that the number of digits is the same for the entire dataset.
+In addition to the images, the arguments will be saved automatically in a file called args.txt and the histograms of vertical and horizontal the shifts sizes for the entire dataset are saved in shifts_ditribution.png
 
 ### How to get help
 If you want to understand the meaning of the paramenetrs and some help on running the code you type: 
@@ -45,8 +45,8 @@ optional arguments:
   -o OUTPUT_FOLDER_PATH
                         Output folder path. It is recommended to use the absolute path.
 
+The parameters follow the same notation as in the article. For more details, see XXX.
 
- 
 
 ### Documentation
 The journal article describing and evaluating the SWN is available here:XXX
