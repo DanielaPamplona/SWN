@@ -5,17 +5,21 @@
 The shifted white noise (SWN) is a stimuli that, by introducing random spatial shifts in the usual white noise stimulus, increases the resolution of the measurements, estimating faster and more acurater visual receptive fields.
 
 ### Instalation
-1) Clone the code or download and unzip it. Go to the directory where the code is. 
+#### 1) Clone the code or download and unzip it. 
 
-2) Update your conda envioronment. If you don't have conda installed in your computer, go to the [conda webpage](https://docs.conda.io/projects/conda/en/latest/index.html)s and install it. Conda allows to create envioronments to manage packages and avoid incompatabilities between dependencies, for more details why you should use conda, you can follow this [link](https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0).
+Go to the directory where the code is. 
+
+#### 2) Update your conda envioronment. 
+
+If you don't have conda installed on your computer, go to the [conda webpage](https://docs.conda.io/projects/conda/en/latest/index.html) and install it. Conda allows creating environments to manage packages and avoid incompatibilities between them. For more details see [why you should use conda](https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0).
 
 $ conda update conda
 
-3) Create the SWN envioronment and install the requirements 
+#### 3) Create the SWN environment
 
 $ conda env create -f SWN-env.yml
 
-4) Activate the envioronment 
+#### 4) Activate the envioronment 
 
 $ conda activate SWN
 
