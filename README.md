@@ -7,7 +7,7 @@ The shifted white noise (SWN) is a stimuli that, by introducing random spatial s
 ### Instalation
 1) Clone the code or download and unzip it. Go to the directory where the code is. 
 
-2) Update your conda envioronment. If you don't have conda installed in your computer, go to the *[conda webpage](https://docs.conda.io/projects/conda/en/latest/index.html)* and install it. Conda allows to create envioronments to manage packages and avoid incompatabilities between dependencies, for more details why you should use conda, you can follow this *[link](https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0)*.
+2) Update your conda envioronment. If you don't have conda installed in your computer, go to the [conda webpage](https://docs.conda.io/projects/conda/en/latest/index.html)s and install it. Conda allows to create envioronments to manage packages and avoid incompatabilities between dependencies, for more details why you should use conda, you can follow this [link](https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0).
 
 $ conda update conda
 
@@ -52,10 +52,10 @@ optional arguments:
 
 The parameters follow the same notation as in the article. For more details, see XXX.
 
-In addition you can directly write your question on discussion section, send an email to the *[Daniela Pamplona](daniela.pamplona@ensta-paris.fr)*.  
+In addition you can directly write your question on discussion section, send an email to the [Daniela Pamplona](daniela.pamplona@ensta-paris.fr).  
 
 ### Documentation
-For more details on the SWN, please visit the *[project webpage](https://team.inria.fr/biovision/swn/)*.
+For more details on the SWN, please visit the [project webpage](https://team.inria.fr/biovision/swn/).
 
 
 ### Citation
